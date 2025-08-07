@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rajesh-Developer Portfolio</title>	
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+      *{
+	    margin:0;
+	    padding:0;
+		box-sizing:border-box;
+	  }
+	  body{
+	       background-color:rgb( 0,0,33);
+		   color:white;
+		   font-family:'poppins',sans-serif;
+	  }
+	  nav{
+	      display:flex;
+		  justify-content:space-around;
+		  align-items:center;
+		  height:80px;
+		  background-color:rgb( 18,18,62);
+		 }
+	 nav ul{
+	        display:flex;
+	        justify-content:center;
+           }	
+	nav ul li{
+              list-style:none;
+              margin:0 23px;
+			  color:white;
+			 } 
+   nav ul li a{
+               color:white;
+               text-decoration:none;
+              }	
+    nav ul li a:hover{
+	                color:rgb(78,235,61);
+					font-size:1.2rem;
+					}		
+      .left{
+            font-size:1.5rem;
+         }
+    .first{
+              display:flex;
+              justify-content:space-around;
+			  margin:23px 0;
+             }
+    .first div{
+              width:30%;
+             }			  
+	.leftpart{
+              font-size:2.5rem;
+			  margin:90px 0;
+              }	
+    .rightpart img{
+	           width:65%;
+			   height:65%;
+               margin: 50px 80px;
+			   border-radius:50%;
+			   border:5px dashed white;
+			   object-fit:cover;
+               transition:.5s;			   
+                  }	
+      .rightpart img:hover{
+	                        transform:scale(110%);
+                            transition:.5s;
+	                       }
+		.purple{
+               color:rgb(170,107,228);
+               }	
+        #element{
+		         color:rgb(170,107,228);
+		        }	
+         hr{margin:50px;
+		   }    
+                 .second{
+				         padding-left:60px;
+						 font-size:1.6rem;
+                         }				 
+         .second .exp .grey{
+		                    padding-left:30px;
+		                    font-size:1.5rem;		                     
+                            } 
+		.second .exp .grey{	
+                           text-decoration:none;
+						   color:rgb(170,107,228);						 
+						 }
+				.skill  h2{
+                       text-align:center;
+                       }
+			    .skill  h5{
+                            text-align:center;
+							padding:20px;
+                            } 
+                .value h3{
+                       padding-left:50px;
+					   margin-top:20px;
+                         }	
+                .value p{
+                         padding-left:50px;
+						 margin-top:20px;
+                         }	
+                .value h3 a{color:white;
+			            	text-decoration:none; 
+			            	}
+				.value h3 a :hover{
+                                   color:rgb(78,235,61);
+				                   }
+								   
+				footer{
+				        background-color:#0e0e1a;
+						height:235px;
+						margin:60px 0 0 0;
+                        }	
+                .footer{
+                        padding:23px 122px;
+                        display:flex;
+						justify-content:space-evenly; 
+                        }
+               footer ul li{list-style:none;
+			            }	
+				.footer > div{
+				               width:223px;
+                             }  
+      footer .footer .social img{
+	                              width:70px;
+	                          }			   
+	  </style>
+</head>
+ <body>
+   <header>
+     <nav>
+	   <div class="left">Rajesh's Portfolio</div>
+	   <div class="right"></div>
+	     <ul>
+		     <li><a href="#">Home</a></li>
+			 <li><a href="#">About</a></li>
+			 <li><a href="#">Service</a></li>
+			 <li><a href="#">Project</a></li>
+			 <li><a href="#">Contact Me</a></li>			 
+		 </ul>
+	 </nav>
+   </header>
+     <main>
+	   <section class="first">
+	     <div class="leftpart">
+		 Hi, My name is <span class="purple">Rajesh</span>
+		 and i am a Passionate
+ 		   <div>Frontend Developer</div>
+		   <span id="element"></span>
+		  </div> 
+	     <div class="rightpart">
+		 <img src="D:\Rajesh project\images\Snapchat-1964844826.jpg">
+		</div>
+	   </section>
+	 </main>
+	 <!-- owl default theme -->
+	   <div class="owl-carousel owl-theme">
+        <div class="item"><img src="D:\Rajesh project\images\programmer-4523101.jpg"></div>
+		    <div class="item"><img src="D:\Rajesh project\images\web-designer-2443766.jpg"></div>
+          <div class="item"><img src="D:\Rajesh project\images\code-1076536.jpg"></div>
+           <div class="item"><img src="D:\Rajesh project\images\concept-1868728.jpg"></div>
+            <div class="item"><img src="D:\Rajesh project\images\photoshop-4759954.jpg"></div>
+	         </div>
+	  <hr>
+	     <section class="second">
+		 <div class="exp">
+		 Work Experience:<span class="grey">Fresher</span>
+		 </div>
+		  </section>
+	 <hr>
+	     <section class="skill">
+		<h2> My Technical Skills</h2>
+		<h5>Here are the tools and technologies I use to build 
+		clean,responsive and interactive websites.
+		</h5>
+		</section>		
+		 <div class="container-fluid">
+		  <div class="row">		  
+		   <div class="col-12 icons">
+		  <img src="D:\Rajesh project\images\iconslogo.jpg" class="w-100">
+		   </div>
+		    </div>
+		     </div>
+		<section class="value">
+		<h3><a href="#"><span class="parahead">⁕ HTML5</span></a></h3>
+		<p>• Build the structures of webpages using semantic tags & best practices.</p>
+		<h3><a href="#"><span class="parahead">⁕ CSS3</span></a></h3>
+		<p>• Style websites with modern layouts (Flexbox,Grid) and clean responsive
+		     design.</p>
+		<h3><a href="#"><span class="parahead">⁕ BOOTSTRAP</span></a></h3>	 
+		<p>• Speeds up UI development with a mobile-first responsive grid system and prebuilt components.</p>
+		<h3><a href="#"><span class="parahead">⁕ JAVASCRIPT</span></a></h3>
+		<p>• Adds dynamic behaviour and interactivity to webpages.</p>
+		<h3><a href="#"><span class="parahead">⁕ jQUERY</span></a></h3>		
+		<p>• Used for animations,effects,and handling events smoothly.</p>
+		<h3><a href="#"><span class="parahead">⁕ PHOTOSHOP</span></a></h3>
+		<p>• Used for creating and editing web assets like baners,mockups,and
+           UI designs</p> 	
+		</section>
+	<footer>
+	 <div class="footer">
+	   <div class="footone">
+	     <h3>Rajesh's Developer Portfolio</h3>
+	   </div>
+	    <div class="foottwo">
+		  <ul>
+		    <li>Home</li>
+		    <li>About</li>
+		    <li>Services</li>
+		    <li>Contact</li>
+		    </ul>
+		</div>
+	     <div class="footthree">
+		 <ul>
+		    <li>Home</li>
+		    <li>About</li>
+		    <li>Services</li>
+		    <li>Contact</li>
+		    </ul>
+		 </div>
+	      <div class="footfour">
+		  <ul>
+		    <li>Home</li>
+		    <li>About</li>
+		    <li>Services</li>
+		    <li>Contact</li>
+		    </ul>
+		  </div> 
+           <div class="social">	
+		   <h5>Social Links</h5>
+          <a href="#"><img src="D:\Rajesh project\images\glogo.png"></a>
+		  <a href="#"> <img src="D:\Rajesh project\images\llogo.png"></a>
+             </div>		   
+	    </div>
+         </footer>	
+		
+		  
+	 <!-- setup and start animation -->
+	 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	  <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend','Web Design','Photoshop','Video Editor'],
+      typeSpeed: 70,
+    });
+  </script>
+ </body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+ <!--jquery min.css -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- owl.js  -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+</html>
